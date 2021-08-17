@@ -1,2 +1,2 @@
-# my_sample_app
+# my_sample_android
 My Android App project

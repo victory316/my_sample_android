@@ -1,2 +1,7 @@
 # my_sample_android
-My Android App project
+My basic Android App project
+
+### What were used
+- MVVM
+- Clean Architecture
+- AAC

@@ -10,6 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".presentation.MyApplication"
         android:theme="@style/Theme.MySampleApp">
         <activity android:name=".presentation.splash.SplashActivity">
             <intent-filter>

@@ -2,11 +2,14 @@ package com.example.mysampleapp.base
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.annotation.LayoutRes
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
+import androidx.lifecycle.ViewModelProviders
 import com.example.mysampleapp.R
 
-abstract class BaseActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_base)
-    }
+/**
+ *  BaseActivity
+ */
+abstract class BaseActivity<DB : ViewDataBinding> : AppCompatActivity() {
 }
